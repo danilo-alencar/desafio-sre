@@ -5,7 +5,9 @@ COMANDO MINUKUBE:
 minikube start
 
 minikube addons enable ingress-dns
+
 minikube addons enable ingress-dns
+
 minikube addons list
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
