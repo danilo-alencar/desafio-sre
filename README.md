@@ -9,7 +9,7 @@ minikube addons enable ingress-dns
 minikube addons enable ingress-dns
 
 minikube addons list
-##########################################################################################################
+################################################
 
 
 Instalar Grafana e promethues: 
@@ -18,21 +18,21 @@ Instalar Grafana e promethues:
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm install my-kube-prometheus-stack prometheus-community/kube-prometheus-stack --version 58.1.2
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/b93e0672-18cb-42e5-99d5-712a8d5b7153)
-##########################################################################################################
+################################################
 
 Prometheus funcionando:
 
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/38c129fe-9837-495e-bba1-065151268cae)
-##########################################################################################################
+################################################
 
 DataSource:
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/3385990a-e2cd-4054-b0f3-14301daeeb7d)
-##########################################################################################################
+################################################
 
 
 Grafana:
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/24f73add-27f9-4dfa-b3a0-e6812d813fb6)
-##########################################################################################################
+################################################
 
 node-exporter
 
