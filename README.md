@@ -35,8 +35,10 @@ kubectl create -f deploy.yml
 kubectl create -f service.yaml
 kubectl create -f ingress.yaml
 
-![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/9ab7166b-a6bd-451b-ac79-d77f37bcd80b)
-![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/7db0c329-f227-4b4d-a43c-cf00078ff596)
+![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/32bdd04f-37d5-4a65-a97d-953a2a0dd386)
+
+![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/ce67cc69-867d-416e-a1ca-0d2a3d8b3030)
+
 
 
 
