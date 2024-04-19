@@ -1,19 +1,14 @@
 DESAFIO SRE:
 
 COMANDO MINUKUBE:
-
 minikube start
-
 minikube addons enable ingress-dns
-
 minikube addons enable ingress-dns
-
 minikube addons list
-################################################
+
 
 
 Instalar Grafana e promethues: 
-
 
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm install my-kube-prometheus-stack prometheus-community/kube-prometheus-stack --version 58.1.2
@@ -23,22 +18,26 @@ helm install my-kube-prometheus-stack prometheus-community/kube-prometheus-stack
 Prometheus funcionando:
 
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/38c129fe-9837-495e-bba1-065151268cae)
+
 ################################################
 
 DataSource:
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/3385990a-e2cd-4054-b0f3-14301daeeb7d)
+
 ################################################
 
 
 Grafana:
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/24f73add-27f9-4dfa-b3a0-e6812d813fb6)
+
 ################################################
 
 node-exporter
 
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/49d6790d-8601-4f3c-9834-cce806b9d62f)
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/842e19b2-eda4-47ef-83ea-af943423dd9a)
-##########################################################################################################
+
+########################################
 
 Criar infra kuberbenetes:
 kubectl create -f deploy.yml
