@@ -16,7 +16,8 @@ Prometheus funcionando:
 
 
 DataSource:
-![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/586311fb-c538-47a2-b38d-ba99ce116099)
+![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/3385990a-e2cd-4054-b0f3-14301daeeb7d)
+
 
 
 Grafana:
