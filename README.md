@@ -12,7 +12,8 @@ helm install my-kube-prometheus-stack prometheus-community/kube-prometheus-stack
 
 Prometheus funcionando:
 
-![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/ebb901c3-2334-4636-b65c-c02432945912)
+![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/38c129fe-9837-495e-bba1-065151268cae)
+
 
 DataSource:
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/586311fb-c538-47a2-b38d-ba99ce116099)
