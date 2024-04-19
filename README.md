@@ -3,6 +3,7 @@ DESAFIO SRE:
 COMANDO MINUKUBE:
 
 minikube start
+
 minikube addons enable ingress-dns
 minikube addons enable ingress-dns
 minikube addons list
@@ -39,8 +40,13 @@ node-exporter
 
 Criar infra kuberbenetes:
 kubectl create -f deploy.yml
+
 kubectl create -f service.yaml
+
 kubectl create -f ingress.yaml
+
+![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/407cc9c7-7fe5-44db-9bb6-b61461426be0)
+
 
 ![image](https://github.com/danilo-alencar/desafio-sre/assets/46189256/32bdd04f-37d5-4a65-a97d-953a2a0dd386)
 
